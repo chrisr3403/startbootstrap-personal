@@ -16,9 +16,9 @@ concurrently([
 }).then(success, failure);
 
 function success() {
-    console.log('Success');
+    console.log('success');
 }
 
 function failure() {
-    console.log('Failure');
+    console.log('failure');
 }
